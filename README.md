@@ -10,7 +10,7 @@ Left buzzer will play hour in morse code, right buzzer will play minutes in mors
 
 Maybe add a settable alarm?
 
-Input List:
+Input List:  
 Show Time - Shows time on LED's, plays sound on buzzer/Vibrate Motor,  
 Set Alarm - Arms alarm set mode  
 Count Hours(alarm) - Increase alarm time by 1 hour  
