@@ -18,3 +18,4 @@ Count Minutes(15 minutes, alarm) - Increase alarm time by 15 minutes
 Count Minutes(1 minute, alarm) - Increase alarm time by 1 minute  
 Turn Off Alarm - Turn off alarm once on  
 
+Design statement: I will design and make an alarm clock for a client who is blind and deaf The clock will count in morse and is constructed using tinkercad and the arduino ide It will take 6 weeks to make and will be evaluated according to the criteria to be decided.
