@@ -22,8 +22,8 @@ Design statement: I will design and make an alarm clock for a client who is blin
 
 # Record Of Tasks
 
-| Task No. |      Planned Action      |    Planned Outcome    | Time Estimate | Target Completion Date | Criteria |
-|:--------:|:------------------------:|:---------------------:|:-------------:|:----------------------:|:--------:|
-|     1    | Talk about a time system | Decide on time system |    1 Class    |  End of class, Nov 3rd |     C    |
-|     2    |                          |                       |               |                        |          |
-|     3    |                          |                       |               |                        |          |
+| Task No. |      Planned Action      |                 Planned Outcome                 | Time Estimate | Target Completion Date | Criteria |
+|:--------:|:------------------------:|:-----------------------------------------------:|:-------------:|:----------------------:|:--------:|
+|     1    | Talk about a time system |              Decide on time system              |    1 Class    |  End of class, Nov 3rd |     C    |
+|     2    |   Create System Diagram  | Finish a system diagram  that explains the idea |   20 Minutes  |  In class, 2021-12-08  |     B    |
+|     3    |                          |                                                 |               |                        |          |
