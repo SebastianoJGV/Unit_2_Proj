@@ -20,6 +20,9 @@ Turn Off Alarm - Turn off alarm once on
 
 Design statement: I will design and make an alarm clock for a client who is blind and deaf. The clock will count in morse and is constructed using tinkercad and the arduino ide It will take 6 weeks to make and will be evaluated according to the criteria to be decided.
 
+# System Diagram
+![](system_diagram1.png)
+
 # Record Of Tasks
 
 | Task No. |      Planned Action      |                 Planned Outcome                 | Time Estimate | Target Completion Date | Criteria |
