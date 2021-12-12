@@ -11,7 +11,8 @@ For the counter, we will be using an Arduino as, according to researchgate, it d
 ### Success Criteria
 1. The clock should be functioning and display the appropriate time
 2. The alarm should buzz a sound when it goes off
-3. cv
+3. Japanese Kanji should be displayed
+4. 
 
 ### Design statement
 I will design and make a digital clock for a client who is blind and deaf. The clock will count in morse and is constructed using tinkercad and the arduino ide It will take 6 weeks to make and will be evaluated according to the criteria to be decided.
