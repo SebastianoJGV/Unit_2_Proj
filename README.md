@@ -31,3 +31,13 @@ I will design and make an alarm clock for a client who is blind and deaf. The cl
 
 ### System Diagram
 ![](system_diagram1.png)
+
+### Flow Diagrams
+
+### Test Plan
+
+## Criteria C: Development
+
+### Existing Tools
+
+### Sources
