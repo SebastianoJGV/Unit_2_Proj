@@ -19,14 +19,16 @@ I will design and make a digital clock for a client who is blind and deaf. The c
 
 ### Record Of Tasks
 
-| Task No. |              Planned Action             |                 Planned Outcome                 | Time Estimate | Target Completion Date | Criteria |
-|:--------:|:---------------------------------------:|:-----------------------------------------------:|:-------------:|:----------------------:|:--------:|
-|     1    |         Talk about a time system        |              Decide on time system              |    1 Class    |  End of class, Nov 3rd |     C    |
-|     2    |          Create System Diagram          | Finish a system diagram  that explains the idea |   20 Minutes  |  In class, 2021-12-08  |     B    |
-|     3    |         Create bitmap of numbers        |             Bitmap for 1-6 complete             |   45 Minutes  |        Dec 11th        |     B    |
-|     4    |              Finish Bitmap              |               Bitmap 7-12 complete              |     1 Hour    |        Dec 12th        |     B    |
-|     5    |      Create LED Matrix on tinkercad     |                  8x8 LED Setup                  |    30 Mins    |        Dec 12th        |     B    |
-|     5    | Create matrix prototype, counting hours |          Count Hours in kanji on matrix         |   1.5 Hours   |        Dec 13th        |     B    |
+| Task No. | Planned Action | Planned Outcome | Time Estimate | Target Completion Date | Criteria |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | Talk about a time system | Decide on time system | 1 Class | End of class, Nov 3rd | C |
+| 2 | Create System Diagram | Finish a system diagram  that explains the idea | 20 Minutes | In class, 2021-12-08 | B |
+| 3 | Create bitmap of numbers | Bitmap for 1-6 complete | 45 Minutes | Dec 11th | B |
+| 4 | Finish Bitmap | Bitmap 7-12 complete | 1 Hour | Dec 12th | B |
+| 5 | Create LED Matrix on tinkercad | 8x8 LED Setup | 30 Mins | Dec 12th | B |
+| 6 | Create matrix prototype, counting hours | Count Hours in kanji on matrix | 1.5 Hours | Dec 13th | B |
+| 7 | Find solution to display image for a extended period of time | Working matrix prototype that can show hours | 1 Hour | Dec 14th | B |
+| 8 | Bug still not fixed,  moving on to try to work the piezo buzzer | Connect peizo buzzer,  find a way to coordinate with a led and show am vs pm | 1 Hour | Dec 15th | B |
 
 ### Citation
 1. Mohammed, M. A. (2017, November 9). What are the advantages and disadvantages of Arduino ... Research Gate. Retrieved December 11, 2021
