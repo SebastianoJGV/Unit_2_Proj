@@ -5,7 +5,7 @@
 // AUTHOR   : Sebastiano Giannelli Viscardi, Elia Kobayashi, Su Thiri Kyaw
 // DATE     : 2021-12-01 to 2021-12-18
 // MCU      : ATMEGA328p with Arduino Uno Rev3
-// STATUS   : Operational
+// STATUS   : Operational, needs AM/PM seperation
 
 //Rows 
 #define R1 9
