@@ -1,6 +1,6 @@
 // PROJECT  : Unit 2 Clock
 // PURPOSE  : Create a clock that counts in a number system other than roman characters, 
-//			  And incorporates a second sense
+//	      And incorporates a second sense
 // COURSE   : IB Computer Sciences
 // AUTHOR   : Sebastiano Giannelli Viscardi, Elia Kobayashi, Su Thiri Kyaw
 // DATE     : 2021-12-01 to 2021-12-18
