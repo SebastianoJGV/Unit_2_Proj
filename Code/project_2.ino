@@ -1,3 +1,11 @@
+// PROJECT  : Unit 2 Clock
+// PURPOSE  : Create a clock that counts in a number system other than roman characters, 
+//			  And incorporates a second sense
+// COURSE   : IB Computer Sciences
+// AUTHOR   : Sebastiano Giannelli Viscardi, Elia Kobayashi, Su Thiri Kyaw
+// DATE     : 2021-12-01 to 2021-12-18
+// MCU      : ATMEGA328p with Arduino Uno Rev3
+// STATUS   : Operational
 
 //Rows 
 #define R1 9
@@ -18,7 +26,10 @@
 #define C7 A2
 #define C8 A3
 
+//Current Time
 uint8_t current = 0;
+
+//Bitmaps for each kanji character
 
   int jap1 [8] [8] = {
     {0,0,0,0,0,0,0,0},
@@ -141,7 +152,7 @@ uint8_t current = 0;
     {0,0,0,0,0,0,0,0}
   }; 
 
-void setup() {
+void setup() { //Serial simply for testing, all pins are setup for matrix, along with buzzer and button
   Serial.begin(9600);
    pinMode(R1, OUTPUT);
    pinMode(R2, OUTPUT);
@@ -159,10 +170,9 @@ void setup() {
    pinMode(C6, OUTPUT);
    pinMode(C7, OUTPUT);
    pinMode(C8, OUTPUT);
-   pinMode(A5, INPUT);
-   pinMode(A4, OUTPUT);
 
-  digitalWrite(R1,HIGH);
+
+  digitalWrite(R1,HIGH); //All pins are inverted, so as to clear the matrix
   digitalWrite(R2,HIGH);
   digitalWrite(R3,HIGH);
   digitalWrite(R4,HIGH);
@@ -179,10 +189,15 @@ void setup() {
   digitalWrite(C7,LOW);
   digitalWrite(C8,LOW);
   digitalWrite(A4,LOW);
+  
+  pinMode(A5, INPUT); //Button and control for buzzer
+  pinMode(A4, OUTPUT);
 }
 
 
-void SelectRow(int row){
+void SelectRow(int row){ 
+  //used with for loop to itterate through rows
+  //If row not selected, it is empty
   if (row==1) digitalWrite(R1,LOW); else digitalWrite(R1,HIGH);
   if (row==2) digitalWrite(R2,LOW); else digitalWrite(R2,HIGH);
   if (row==3) digitalWrite(R3,LOW); else digitalWrite(R3,HIGH);
@@ -194,6 +209,7 @@ void SelectRow(int row){
 }
 
 void Set_LED_in_Active_Row(int column, int state){
+  //Itterate through column, to find which LED should be on
   if (column==1) digitalWrite(C1,state); 
   if (column==2) digitalWrite(C2,state); 
   if (column==3) digitalWrite(C3,state); 
@@ -204,12 +220,12 @@ void Set_LED_in_Active_Row(int column, int state){
   if (column==8) digitalWrite(C8,state); 
 }
 
-void Clear(){
+void Clear(){ //Clears board
     int state = 0;
-  for (int l=2; l<10; l++){
+  for (int l=2; l<10; l++){//Counts through and writes all rows high
       digitalWrite(l, HIGH);
     }
-  for (int k=1;k<9;k++){
+  for (int k=1;k<9;k++){//Sets all columns off
     Set_LED_in_Active_Row(k, 0);
   }
     
@@ -217,15 +233,15 @@ void Clear(){
   
 
 void loop() {
-  current++;
-  if(current>13){current=0;} 
+  current++;//integer that counts current time
+  if(current>13){current=0;} //if time is past 12, go back to 1
     
-  for (int time=0;time<100;time++){
-    for (int j=0;j<8;j++){
-    Clear();
-    SelectRow(j+1);
-      for (int i=0;i<8;i++){
-        switch(current){
+  for (int time=0;time<100;time++){//Decides how much time between itterations
+    for (int j=0;j<8;j++){//Count through each row from 0-8
+    Clear();//Clear matrix
+    SelectRow(j+1);//Select the next row
+      for (int i=0;i<8;i++){//For loop to count through columns
+        switch(current){//Switch case corresponding to each bitmap
           case 1:
           Set_LED_in_Active_Row(i+1 ,jap1[j][i]);
           break;
@@ -277,13 +293,14 @@ void loop() {
       }
       delay(2);
     }
-	if(digitalRead(A5)==HIGH){
+	if(digitalRead(A5)==HIGH){ //If the button is pressed, play buzzer based off of time
   		for(int i=0; i<current; i++){
      		digitalWrite(A4, HIGH);
       	 	delay(500);
   			digitalWrite(A4, LOW);
   			delay(500);
-    		Serial.print("counted");}
+    		//Serial.print("counted"); //Test code, can be ommitted
+   			}
    	 	}
 	}
 }
