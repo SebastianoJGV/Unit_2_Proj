@@ -15,7 +15,7 @@ For the counter, we will be using an Arduino as, according to researchgate, it d
 4. 
 
 ### Design statement
-I will design and make a digital clock for a client who is blind and deaf. The clock will count in morse and is constructed using tinkercad and the arduino ide It will take 6 weeks to make and will be evaluated according to the criteria to be decided.
+We will design and make a digital clock for a client who can only read and understand numbers in Japanese Kanji which will be displayed using an 8x8 matrix. An additional component will be designed to accomodate the blind and deaf which will be in the form of a buzzer that will buzz the amount of time it is currently which the client can tell by touching the buzzer and feeling its vibrations. This clock will be constructed using tinkercad and the arduino ide and will take 6 weeks to make and be evaluated according to the criteria set above. 
 
 ### Record Of Tasks
 
