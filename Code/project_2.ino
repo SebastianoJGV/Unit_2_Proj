@@ -1,11 +1,11 @@
 // PROJECT  : Unit 2 Clock
 // PURPOSE  : Create a clock that counts in a number system other than roman characters, 
-//	      And incorporates a second sense
+//			  And incorporates a second sense
 // COURSE   : IB Computer Sciences
 // AUTHOR   : Sebastiano Giannelli Viscardi, Elia Kobayashi, Su Thiri Kyaw
 // DATE     : 2021-12-01 to 2021-12-18
 // MCU      : ATMEGA328p with Arduino Uno Rev3
-// STATUS   : Operational, needs AM/PM seperation
+// STATUS   : Operational
 
 //Rows 
 #define R1 9
@@ -234,7 +234,7 @@ void Clear(){ //Clears board
 
 void loop() {
   current++;//integer that counts current time
-  if(current>13){current=0;} //if time is past 12, go back to 1
+  if(current>12){current=1;} //if time is past 12, go back to 1
     
   for (int time=0;time<100;time++){//Decides how much time between itterations
     for (int j=0;j<8;j++){//Count through each row from 0-8
