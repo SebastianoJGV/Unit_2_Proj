@@ -75,6 +75,7 @@ Figure 8. The select row function is used in conjunction of a for loop, to itter
 | 8 | Bug still not fixed,  moving on to try to work the piezo buzzer | Connect peizo buzzer,  find a way to coordinate with a led and show am vs pm | 1 Hour | Dec 15th | B |
 | 9 | Fix bug with Dr. Ruben's help, get buzzer beeping the correct amount | Matrix is stable, buzzer beeps time when button is pressed | 1 Hour | Dec 15th | B |
 | 10 | Ensure all code is commented, comment when necessary | Headers and all comments complete | 15 Mintues | Dec 15th | B |
+| 11 | Flowcharts for Clear(), SelectRow(), and Set_LED_In_Active_Row() | Finish flowcharts | 45 Minutes | Dec 16th | B |
 
 ## Criteria C: Development
 
