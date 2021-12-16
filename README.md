@@ -44,6 +44,13 @@ Figure 5. The unit testing
 
 Figure 6. A portion of our code to showcase code review.
 
+![](Clear.jpeg)
+
+Figure 7. A flow diagram depicting the clear function, which negates ghosting by resetting all led's to low.
+
+![](SelectRow.jpeg)
+
+Figure 8. The select row function is used in conjunction of a for loop, to itterate through which row is selected. Making whichever row currently selected grounded, and the rest are given 5v to make sure no led ghosting is prevalent.
 ### Test Plan
 
 | Description                                                                                                                                                                                    | Type              | Inputs                                                                                                                                                                               | Output                                                                                                                                                                                                                  | Evidence of output                                       |
