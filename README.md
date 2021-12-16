@@ -16,7 +16,7 @@ The client is an old Japanese man who does not know Roman numerals as he has liv
 We will design and make a digital clock for a client who can only read and understand numbers in Japanese Kanji which will be displayed using an 8x8 matrix. An additional component will be designed to accomodate the blind and deaf which will be in the form of a buzzer that will buzz the amount of time it is currently which the client can tell by touching the buzzer and feeling its vibrations. This clock will be constructed using tinkercad and the arduino ide and will take 6 weeks to make and be evaluated according to the criteria set above. 
 
 ### Rationale for Proposed Solution
-For the counter, we will be using an Arduino as, according to researchgate, it does not need external programming, it is open source, and inexpensive. In addition, since we are making a clock, we need to attach parts which is simple using an Arduino. We are attaching a 8 by 8 grid of LED lights to the Arduino to imitate the turnings of a clock. Furthermore, we are attaching a buzzer to play a sound according to what hour of the day it is when a button is pressed.. Along with Arduino, we will be using the language C as, according to C-sharp-corner, it is not only powerful but also a very structured language.
+For the counter, we will be using an Arduino as, according to researchgate, it does not need external programming, it is open source, and inexpensive compared to alternative processors such as Teensey 3.6 or the Amica NodeMCU. In addition, since we are making a clock, we need to attach parts which is simple using an Arduino. Furthermore, as different parts will be attached to the Arduino, we need a powerful processor. Compared to the Teensey 3.6 or the Amica NodeMCU, the Arduino is more powerful (opensource.com). We are attaching a 8 by 8 grid of LED lights to the Arduino to display the hour of the day. As we are displaying Kanji, this is the best option. Furthermore, we are attaching a buzzer to play a sound according to what hour of the day it is when a button is pressed. Along with Arduino, we will be using the language C as, according to C-sharp-corner, it is not only powerful but also a very structured language. Furthermore, as C is the only language with the ability to code an Arduino, we cannot use other languages such as Python or JavaScrip (circuito.com).
 
 ### Record Of Tasks
 
@@ -34,8 +34,10 @@ For the counter, we will be using an Arduino as, according to researchgate, it d
 | 10 | Ensure all code is commented, comment when necessary | Headers and all comments complete | 15 Mintues | Dec 15th | B |
 
 ### Citation
-1. Mohammed, M. A. (2017, November 9). What are the advantages and disadvantages of Arduino ... Research Gate. Retrieved December 11, 2021
-2. Talari, S. (n.d.). Top 10 advantages of the C programming language. C# Corner. Retrieved December 11, 2021
+1. Circuito. (2018, March 11). Everything you need to know about arduino code. circuito.io blog. Retrieved December 16, 2021, from 
+2. Mohammed, M. A. (2017, November 9). What are the advantages and disadvantages of Arduino ... Research Gate. Retrieved December 11, 2021
+3. Talari, S. (n.d.). Top 10 advantages of the C programming language. C# Corner. Retrieved December 11, 2021
+4. Red Hat. (n.d.). What is an Arduino? Opensource.com. Retrieved December 16, 2021
 
 ## Criteria B: Solution Overview
 
