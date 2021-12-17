@@ -44,6 +44,10 @@ Figure 2. A flow diagram depicting the clear function, which negates ghosting by
 
 Figure 3. The select row function is used in conjunction of a for loop, to itterate through which row is selected. Making whichever row currently selected grounded, and the rest are given 5v to make sure no led ghosting is prevalent.
 
+![](flow_chart_unit2)
+
+Figure 4. This flow diagram showcases how the buzzer system works. Whenever the button is pressed, the buzzer buzzes and turns silent. This repeats the same number of times as the number displayed. 
+
 ### Test Plan
 
 ![](Unit2_pic1.png)
@@ -53,6 +57,7 @@ Figure 5. The unit testing
 ![](testing2.png)
 
 Figure 6. A portion of our code to showcase code review.
+
 
 | Description                                                                                                                                                                                    | Type              | Inputs                                                                                                                                                                               | Output                                                                                                                                                                                                                  | Evidence of output                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
