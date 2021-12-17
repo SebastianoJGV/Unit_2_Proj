@@ -85,5 +85,6 @@ Figure 6. A portion of our code to showcase code review.
 ## Development
 
 ![](development_1.png)
+Figure 7. The code to automatically display the appropriate number on the grid.
 
 ### Sources
