@@ -120,3 +120,5 @@ To solve the first criterion in the clients requirement,we decided to create a c
 Using loops and if statements, the numbers add 1 each time. If it reaches 12, the program will go back to 1. The next for loop determines how much time is spend between itterations. The clear variable clears the grid after the number 12 is reached. The next for loop goes through rows and columns of the LED lights to determine which light should be on. This is done by counting each row and column from 1-8. The switch case corresponds to the bitmap coded earlier. The number next to the case determines the bitmap it corresponds with. For example, case 1, corresponds with jap1 which is the bitmap for the first number.
 
 ### Sources
+
+We did not use any sources.
