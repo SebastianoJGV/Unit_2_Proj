@@ -18,7 +18,8 @@ We will design and make a digital counter for a client who can only read and und
 ### Rationale for Proposed Solution
 For the counter, we will be using an Arduino as, according to researchgate, it does not need external programming, it is open source, and inexpensive compared to alternative processors such as Teensey 3.6 or the Amica NodeMCU. In addition, since we are making a clock, we need to attach parts which is simple using an Arduino. Furthermore, as different parts will be attached to the Arduino, we need a powerful processor. Compared to the Teensey 3.6 or the Amica NodeMCU, the Arduino is more powerful (opensource.com). We are attaching a 8 by 8 grid of LED lights to the Arduino to display the counted number. As we are displaying Kanji, this is the best option. Furthermore, we are attaching a buzzer to play a sound according to the number being displayed when it is a button is pressed. Along with the Arduino, we will be using the language C as, according to C-sharp-corner, it is not only powerful but also a very structured language. Furthermore, as C is the only language with the ability to code an Arduino, we cannot use other languages such as Python or JavaScrip (circuito.com).
 
-### Details (optional)
+### Details
+Our counter will be continuously displaying numbers in kanji without the need for inputs. The numbers displayed are 1 to 12 in order. Once it surpasses 12, it goes back to 1. The numbers will be displayed on a grid of LED lights arranged in 8 x 8 that are attached to the Arduino. We will also be attaching a buzzer to buzz the number of times displayed on the grid as our other sense for criterion A. The buzzer is activated when a button is pressed. When the buzzer is buzzing, the displaying of numbers is halted.  
 
 ### Citation
 1. Circuito. (2018, March 11). Everything you need to know about arduino code. circuito.io blog. Retrieved December 16, 2021, from 
