@@ -79,6 +79,10 @@ Figure 8. The select row function is used in conjunction of a for loop, to itter
 
 ## Criteria C: Development
 
-### Existing Tools
+## Techniques used
+
+## Development
+
+![](development_1.png)
 
 ### Sources
