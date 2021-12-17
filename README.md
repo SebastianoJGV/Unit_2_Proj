@@ -87,6 +87,8 @@ Figure 6. A portion of our code to showcase code review.
 3. If statements
 4. Switch case
 5. Bitmaps
+6. Multiplexing
+7. Persistence of vision
 
 ## Development
 
