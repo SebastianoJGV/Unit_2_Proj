@@ -63,7 +63,6 @@ Figure 6. A portion of our code to showcase code review.
 | Reviews if the code has adequate comments, function name, and variable name.                                                                                                                   | Code Review       | As this reviews the quality of the code, there are no inputs.                                                                                                                        | The code will contain comments to explain what is going on in the code. Furthermore, names of variables are simple.                                                                                                     | The comments and variable names can be seen in figure 6. |
 
 ### Record Of Tasks
-
 | Task No. | Planned Action | Planned Outcome | Time Estimate | Target Completion Date | Criteria |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | Talk about a time system | Decide on time system | 1 Class | End of class, Nov 3rd | C |
@@ -77,6 +76,7 @@ Figure 6. A portion of our code to showcase code review.
 | 9 | Fix bug with Dr. Ruben's help, get buzzer beeping the correct amount | Matrix is stable, buzzer beeps time when button is pressed | 1 Hour | Dec 15th | B |
 | 10 | Ensure all code is commented, comment when necessary | Headers and all comments complete | 15 Mintues | Dec 15th | B |
 | 11 | Flowcharts for Clear(), SelectRow(), and Set_LED_In_Active_Row() | Finish flowcharts | 45 Minutes | Dec 16th | B |
+| 12 | Write out a description for criteria C | Have a majority of criteria C writing completel | 1.5 Hours | C |  |
 
 ## Criteria C: Development
 
