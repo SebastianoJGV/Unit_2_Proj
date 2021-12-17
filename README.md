@@ -108,4 +108,7 @@ Using loops and if statements, the numbers add 1 each time. If it reaches 12, th
 ![](development_2.png)
 Figure 8. The code to figure out which LED lights should be lit.
 
+![](development_3.png)
+Figure 9. The code showcasing the bitmaps used to turn specific lights on.
+
 ### Sources
