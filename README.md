@@ -36,6 +36,15 @@ Figure 1. System diagram for the proposed solution
 As shown in Fig.1, the proposed solution runs on C and it is developed using Tinkerkad. The proposed counter has one input which is a button. No matter if the button is pressed, numbers will automatically be displayed. The pressing of the button will cause the buzzer to make sounds.
 
 ### Flow Diagrams
+![](Clear.jpeg)
+
+Figure 2. A flow diagram depicting the clear function, which negates ghosting by resetting all led's to low.
+
+![](SelectRow.jpeg)
+
+Figure 3. The select row function is used in conjunction of a for loop, to itterate through which row is selected. Making whichever row currently selected grounded, and the rest are given 5v to make sure no led ghosting is prevalent.
+
+### Test Plan
 
 ![](Unit2_pic1.png)
 
@@ -44,15 +53,6 @@ Figure 5. The unit testing
 ![](testing2.png)
 
 Figure 6. A portion of our code to showcase code review.
-
-![](Clear.jpeg)
-
-Figure 7. A flow diagram depicting the clear function, which negates ghosting by resetting all led's to low.
-
-![](SelectRow.jpeg)
-
-Figure 8. The select row function is used in conjunction of a for loop, to itterate through which row is selected. Making whichever row currently selected grounded, and the rest are given 5v to make sure no led ghosting is prevalent.
-### Test Plan
 
 | Description                                                                                                                                                                                    | Type              | Inputs                                                                                                                                                                               | Output                                                                                                                                                                                                                  | Evidence of output                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
