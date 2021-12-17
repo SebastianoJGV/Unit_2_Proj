@@ -101,7 +101,7 @@ Figure 6. A portion of our code to showcase code review.
 
 Figure 7. The code to figure out which LED lights should be lit.
 
-The first function named “SelectRow” iterates through rows to check which rows should be lit up. If the row is not selected, it will be empty. This is done by first using “if” to check if the row equals a certain number (e.g. if row equals 1). If it does not, the row is lit up. This is inverted so that the rows clear each time. This process is repeated 12 times.
+As the client requires a sensor (Criterion A), we must display number multiple times. To do so, we created a system for the program to determine which LED lights must be turned on from the 8 x 8 grid. The first function named “SelectRow” iterates through rows to check which rows should be lit up. If the row is not selected, it will be empty. This is done by first using “if” to check if the row equals a certain number (e.g. if row equals 1). If it does not, the row is lit up. This is inverted so that the rows clear each time. This process is repeated 12 times.
 
 The second function named “Set_Led_In_Active_Row” iterates through columns to check which LED lights should be lit. This function turns on all the columns that must be lit. Functions that come up later will check which lights are lit twice to determine which LED lights should be displayed.
 
