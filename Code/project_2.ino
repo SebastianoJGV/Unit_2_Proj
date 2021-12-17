@@ -209,15 +209,9 @@ void SelectRow(int row){
 }
 
 void Set_LED_in_Active_Row(int column, int state){
-  //Itterate through column, to find which LED should be on
-  if (column==1) digitalWrite(C1,state); 
-  if (column==2) digitalWrite(C2,state); 
-  if (column==3) digitalWrite(C3,state); 
-  if (column==4) digitalWrite(C4,state); 
-  if (column==5) digitalWrite(C5,state); 
-  if (column==6) digitalWrite(C6,state); 
-  if (column==7) digitalWrite(C7,state); 
-  if (column==8) digitalWrite(C8,state); 
+  //Itterate through column, to find which LED should be on. Column variable is colmbined with a for loop, and we pull data from the column array and write to corresponding state.
+  int carray[8]={C1, C2, C3, C4, C5, C6, C7, C8};
+  digitalWrite(carray[column-1], state);
 }
 
 void Clear(){ //Clears board
