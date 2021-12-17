@@ -82,12 +82,18 @@ Figure 6. A portion of our code to showcase code review.
 
 ## Techniques used
 
+1. For loops
+2. Functions
+3. If statements
+4. Switch case
+5. Bitmaps
+
 ## Development
 
 ![](development_1.png)
 Figure 7. The code to automatically display the appropriate number on the grid.
 
-To solve the first criterion in the clients requirement I decided to create a counter from 1 to 12 as shown in Fig. 1. Using loops and if statements, the numbers add 1 each time. If it reaches 12, the program will go back to 1. The next for for loop determines how much time is spend between itterations. The clear variable clears the grid after the number 12 is reached. The next for loop goes through rows and columns of the LED lights to determine which light should be on. This is done by counting each row and column from 1-8. The switch case corresponds to the bitmap coded earlier. The number next to the case determines the bitmap it corresponds with. For example, case 1, corresponds with jap1 which is the bitmap for the first number.
+To solve the first criterion in the clients requirement I decided to create a counter from 1 to 12 as shown in Fig. 1. Using loops and if statements, the numbers add 1 each time. If it reaches 12, the program will go back to 1. The next for loop determines how much time is spend between itterations. The clear variable clears the grid after the number 12 is reached. The next for loop goes through rows and columns of the LED lights to determine which light should be on. This is done by counting each row and column from 1-8. The switch case corresponds to the bitmap coded earlier. The number next to the case determines the bitmap it corresponds with. For example, case 1, corresponds with jap1 which is the bitmap for the first number.
 
 
 ### Sources
