@@ -107,17 +107,14 @@ To solve the requirement of displaying numbers in a different number system in c
 
 Figure 8. The code to figure out which LED lights should be lit.
 
-As the client requires a sensor (Criterion A), we must display number multiple times. To do so, we created a system for the program to determine which LED lights must be turned on from the 8 x 8 grid. The first function named “SelectRow” iterates through rows to check which rows should be lit up. If the row is not selected, it will be empty. This is done by first using “if” to check if the row equals a certain number (e.g. if row equals 1). If it does not, the row is lit up. This is inverted so that the rows clear each time. This process is repeated 12 times.
+As the client requires a sensor (Criterion A), we must display number multiple times. To do so, we created a system for the program to determine which LED lights must be turned on from the 8 x 8 grid. The first function named “SelectRow” iterates through rows to check which rows should be lit up. If the row is not selected, it will be empty. This is done by first using “if” to check if the row equals a certain number (e.g. if row equals 1). If it does, the row is grounded allowing for LED's to light up, otherwise the row is set to high, meaning it will not be grounded and can not light up.
 
-The second function named “Set_Led_In_Active_Row” iterates through columns to check which LED lights should be lit. This function turns on all the columns that must be lit. Functions that come up later will check which lights are lit twice to determine which LED lights should be displayed.
+The second function named “Set_Led_In_Active_Row” iterates through columns to check which LED lights should be lit. This function turns on all the columns that must be lit, based off of the row and column selected for the bitmaps. Functions that come up later will check which lights are lit twice to determine which LED lights should be displayed.
 
 ![](development_1.png)
 Figure 9. The code to automatically display the appropriate number on the grid.
 
 To solve the first criterion in the clients requirement,we decided to create a counter from 1 to 12 as shown in Fig. 1. through the use of a multiplexed eight by eight LED matrix, and persistence of vision. Through bitmaps of each kanji character, we can set the columns to the appropriate values and, through itterating through which row is grounded, we can control all rows at once with persistence of vision. We have the counter variable, counting the current time, and then we ittirate through each column of each row, comparing it to the bitmaps stated in the beginning of the code, and setting the LED's as they should be in respect to the bitmaps. This is done through a series of for loops, one to set the time gap between each number, one for loops counts through rows, and one counts through columns within the rows. We use a switch case statement, combined with the function Set_LED_In_Active_Row, which sets the LED's based off of the values in the corresponding columns on the bitmap. Then by itterating through all rows, and all columns, at a fast rate, the LED's seem on even when they are not, creating the persistence of vision effect.
-
-
-Using loops and if statements, the numbers add 1 each time. If it reaches 12, the program will go back to 1. The next for loop determines how much time is spend between itterations. The clear variable clears the grid after the number 12 is reached. The next for loop goes through rows and columns of the LED lights to determine which light should be on. This is done by counting each row and column from 1-8. The switch case corresponds to the bitmap coded earlier. The number next to the case determines the bitmap it corresponds with. For example, case 1, corresponds with jap1 which is the bitmap for the first number.
 
 ### Sources
 
