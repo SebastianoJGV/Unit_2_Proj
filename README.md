@@ -1,5 +1,8 @@
 # Unit 2 Project: Multi-Sensor Counter
 
+## TinkerCad Simulation
+https://www.tinkercad.com/things/8XzHCrOcFNw
+
 ## Criteria A: PLanning
 
 ### Problem Definition
